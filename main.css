@@ -46,7 +46,7 @@ header{
     width: 100%;
     height: 100vh;
     position: fixed;
-    top: -100%;
+    top: -100vh;
     background-color: #3C7D28;
     border-bottom-right-radius: 100%;
     border-bottom-left-radius: 100%;
