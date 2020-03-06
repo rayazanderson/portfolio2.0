@@ -118,7 +118,7 @@ top-nav.open{
     transition: transform 650ms cubic-bezier(0.54, -0.81, 0.57, 0.57);
 }
 
-.open.bar.start{
+.open .bar.start{
     transform: rotate(-450deg) translateX(.8rem);
 }
 
@@ -128,7 +128,7 @@ top-nav.open{
     transition: transform 650ms cubic-bezier(0.54, -0.81, 0.57, 0.57);
 }
 
-.open.bar.end{
+.open .bar.end{
     transform: rotate(-450deg) translateX(-.8rem);
 }
 /* end head */
