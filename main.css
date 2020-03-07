@@ -105,7 +105,7 @@ header{
     position: fixed;
     top: -100vh;
     z-index: 50;
-    background-color: #413839;
+    background-color: #151B54;
     border-bottom-right-radius: 100%;
     border-bottom-left-radius: 100%;
     transition: all 650ms cubic-bezier(1,0,0,1);
@@ -419,13 +419,42 @@ li{
 
 /* start contact */
 .contact{
-    background-color:;
+    background-color:#151B54;
 }
 
 form{
-
+    width: 70%;
+    margin: 0 auto;
 }
 
+form label{
+    font-size: 1.5rem;
+}
+
+input,
+select,
+textarea{
+    width: 100%;
+    padding: 1rem;
+    margin-bottom: 5px;
+    border: none;
+    outline-color: #8BB381; 
+}
+
+input[type="submit"]{
+    width: initial;
+    background-color: #8BB381;
+    padding: #eee;
+    padding: 1rem 2rem;
+    border-radius: 0.8rem;
+    cursor: pointer;
+    transition: background-color 650ms;
+}
+
+input[type="submit"]:hover{
+    color:#795D87;
+    background-color: #FFF8DC;
+}
 /* end contact */
 
 /* start foot */
