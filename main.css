@@ -53,7 +53,7 @@ img{
 
 .section-heading h1{
     font-size: 3.5rem;
-    color: rgba(255,255,255, .3);
+    color: rgba(255,255,255, .6);
     text-transform: uppercase;
     font-weight: 300;
     position: relative;
@@ -374,7 +374,6 @@ li{
     text-transform: uppercase;
     font-weight: 300;
     margin-bottom: 1rem;
-    opacity: .3;
 }
 
 .timeline .date{
