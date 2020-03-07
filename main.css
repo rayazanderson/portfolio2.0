@@ -357,4 +357,78 @@ li{
 /* end portfolio */
 
 /* start experience */
+.timeline ul{
+    border-left: 4px solid yellow;
+    border-radius: .8rem;
+    background-color: rgba(0,0,0,0 .05);
+    margin: 0 auto;
+    position: relative;
+    padding: 5rem;
+    list-style: none;
+    text-align: left;
+    width: 70%;
+}
+
+.timeline h1{
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-weight: 300;
+    margin-bottom: 1rem;
+    opacity: .3;
+}
+
+.timeline .date{
+    border-bottom: 1px solid rgba(255,255,255, 0.1);
+    margin-bottom: 1rem;
+    padding-bottom: 1rem;
+    position: relative;
+}
+
+.timeline .date:last-of-type{
+    padding-bottom: 0;
+    margin-bottom: 0;
+    border: none;
+}
+
+.time .date::before,
+.timeline .date::after{
+    position: absolute;
+    display: block;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.timeline .date::before{
+    content: attr(date-date);
+    left: -21rem;
+    text-align: right;
+    min-width: 12rem;
+    font-size: 1.5rem;
+}
+
+.timeline .date::after{
+    content: '';
+    box-shadow: 0 0 0 4px #6B875D;
+    border-radius: 100%;
+    left: -8rem;
+    height: 1.5rem;
+    width: 1.5rem;
+    background-color: #795D87;
+}
 /* end experience */
+
+/* start contact */
+.contact{
+    background-color:;
+}
+
+form{
+
+}
+
+/* end contact */
+
+/* start foot */
+/* end foot */
+
+/*  */
