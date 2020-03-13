@@ -21,11 +21,6 @@ $(document).ready(function () {
         }, 2000);
     });
 
-    $('.submit').click(function (event) {
-        event.preventDefault()
-        console.log('Clicked Button')
-    })
-
     AOS.init({
         easing: 'ease',
         duration: 1800,
