@@ -440,7 +440,7 @@ textarea{
     outline-color: #8BB381; 
 }
 
-input[type="submit"]{
+button[type="submit"]{
     width: initial;
     background-color: #8BB381;
     padding: #eee;
@@ -448,9 +448,10 @@ input[type="submit"]{
     border-radius: 0.8rem;
     cursor: pointer;
     transition: background-color 650ms;
+    font-family: 'Righteous', sans-serif;
 }
 
-input[type="submit"]:hover{
+button[type="submit"]:hover{
     color:#795D87;
     background-color: #FFF8DC;
 }
