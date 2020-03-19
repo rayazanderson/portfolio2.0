@@ -319,7 +319,12 @@ li{
     margin-bottom: 0;
 }
 
-
+.portfolio-link:hover,
+.portfolio-link:focus{
+    background: linear-gradient(to top, #8BB381, #FFF8DC );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
 .portfolio-img{
     width: 50rem;
     flex: 1;
