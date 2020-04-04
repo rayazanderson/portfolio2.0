@@ -573,9 +573,6 @@ button[type="submit"]:hover{
         left: -5.9rem;
     }
 }
-/* end tablet media queries */
-
-
 
 @media screen and (max-width: 600px) {
     .menu-toggler{
@@ -633,3 +630,5 @@ button[type="submit"]:hover{
         right: 2rem;
     }
 }
+
+/* end tablet media queries */
