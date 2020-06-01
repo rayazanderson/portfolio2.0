@@ -232,7 +232,7 @@ li {
 
 .about-heading h1 {
   font-size: 10rem;
-  opacity: 0.3;
+  font-weight: 300;
 }
 
 .about-heading h6 {
@@ -327,6 +327,7 @@ li {
 }
 .portfolio-img {
   width: 50rem;
+  height: 200px;
   flex: 1;
 }
 
