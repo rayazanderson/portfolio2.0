@@ -105,7 +105,7 @@ header {
   position: fixed;
   top: -100vh;
   z-index: 50;
-  background-color: #151b54;
+  background: url("images/background.jpg") no-repeat center fixed;
   border-bottom-right-radius: 100%;
   border-bottom-left-radius: 100%;
   transition: all 650ms cubic-bezier(1, 0, 0, 1);
@@ -424,9 +424,13 @@ li {
 
 /* start contact */
 .contact {
-  background-color: #151b54;
+  background-color: #445098;
 }
 
+#googleForm {
+  text-align: center;
+  opacity: 100%;
+}
 form {
   width: 70%;
   margin: 0 auto;
@@ -467,7 +471,7 @@ button[type="submit"]:hover {
 .copyright {
   width: 100%;
   text-align: center;
-  background-color: #16162d;
+  /* background-color: #16162d; */
   padding: 2rem 0;
   position: relative;
 }
